@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    display: grid;
+    background-color:#c1f1f3;
+}
+
+/* Classes */
+.frame {
+    display: grid;
+}
+
+.top-options {
+    background-color: #9be4e5;
+    margin: 5px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    text-shadow: 0 0 2px black;
+}
+.top-options:active{
+    background-color: #72bfc1;
+}
+
+.edit-box {
+    margin: 0;
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    height: 20px;
+    box-shadow: inset 0 0 3px black;
+    font-size: large;
+}
+
+/* Ids */
+#top-frame {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: #67a8ae;
+}
+
+#menu {
+    background-color: #9be4e5;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+#top-options-group {
+    display: flex;
+    align-items: center;
+}
+
+#middle-frame {
+    align-items: center;
+    justify-items: center;
+}
+
+#form-frame {
+    align-items: center;
+    justify-items: center;
+    background-color: #67a8ae;
+    margin: 10px;
+    padding: 100px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0 0 2px black;
+}
+
+#loginForm {
+    display: grid;
+    font-size: large;
+}
+
+#loginForm-submitButton {
+    background-color: #9be4e5;
+    margin: 10px;
+    padding: 10px 10px 7px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    text-shadow: 0 0 2px black;
+}
+#loginForm-submitButton:active{
+    background-color: #72bfc1;
+}
+
+#login-selections a {
+    margin: 10px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#login-selections a:hover {
+    color: #2474ff;
+    text-shadow: none;
+}
+#login-selections a:active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#imported {
+    background-color: #67a8ae;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    text-shadow: 0 0 2px black;
+}
+
+#bottom-frame {
+    background-color: #67a8ae;
+}
